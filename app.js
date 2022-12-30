@@ -6,7 +6,7 @@ const jobTitleContainers = document.querySelectorAll(".jobTitleContainer")
 const jobTitles = document.querySelectorAll(".jobTitle")
 const projectsTitle = document.querySelector(".projectsTitle")
 const phones = document.querySelectorAll(".phone")
-const laptop = document.querySelector(".laptop")
+const laptop = document.querySelectorAll(".laptop")
 
 const boxContainer = document.querySelector(".boxContainer")
 
@@ -47,4 +47,5 @@ window.addEventListener("scroll", ()=>{
     phones[0].style.transform = `translateX(calc(500vh - ${offsetY}px))`
     laptop.style.transform = `translateX(calc(600vh - ${offsetY}px))`
     phones[1].style.transform = `translateX(calc(750vh - ${offsetY}px))`
+    laptop[1].style.transform = `translateX(calc(850vh - ${offsetY}px))`
   })
